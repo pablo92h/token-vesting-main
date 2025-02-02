@@ -1,7 +1,6 @@
 #![cfg(feature = "test-bpf")]
 use std::str::FromStr;
 
-use solana_program::{hash::Hash, pubkey::Pubkey, rent::Rent, system_program, sysvar};
 use solana_program_test::{processor, ProgramTest};
 use solana_sdk::{
     account::Account, signature::Keypair, signature::Signer, system_instruction,
