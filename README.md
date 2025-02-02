@@ -12,7 +12,6 @@
 
 ## Structure
 
-- `cli` : CLI tool to interact with on-chain token vesting contract
 - `js` : JavaScript binding to interact with on-chain token vesting contract
 - `program` : The BPF compatible token vesting on-chain program/smart contract
 
